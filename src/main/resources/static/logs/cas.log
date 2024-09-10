@@ -1,0 +1,111 @@
+2024-08-23 00:43:14,519 INFO com.csmtech.OnlineCsmExamApplication [restartedMain] Starting OnlineCsmExamApplication using Java 17.0.9 on LAPTOP-HNQNCRSB with PID 18544 (C:\Users\HP\Downloads\OnlineCSMExam\target\classes started by HP in C:\Users\HP\Downloads\OnlineCSMExam)
+2024-08-23 00:43:14,537 DEBUG com.csmtech.OnlineCsmExamApplication [restartedMain] Running with Spring Boot v2.7.8, Spring v5.3.25
+2024-08-23 00:43:14,539 INFO com.csmtech.OnlineCsmExamApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-23 00:43:25,825 INFO com.csmtech.OnlineCsmExamApplication [restartedMain] Started OnlineCsmExamApplication in 11.971 seconds (JVM running for 13.081)
+2024-08-23 00:45:31,388 INFO com.csmtech.controller.MyController [http-nio-8088-exec-2] getting......
+2024-08-23 00:45:34,744 INFO com.csmtech.controller.MyController [http-nio-8088-exec-4] getting......
+2024-08-23 00:45:51,773 INFO com.csmtech.controller.MyController [http-nio-8088-exec-8] ------------Login ====>>Admin
+2024-08-23 00:45:51,774 INFO com.csmtech.controller.MyController [http-nio-8088-exec-8] admin@123
+2024-08-23 00:45:51,819 INFO com.csmtech.controller.MyController [http-nio-8088-exec-8] ---------Role Id is -> 1
+2024-08-23 00:45:51,821 INFO com.csmtech.controller.MyController [http-nio-8088-exec-8] --------roleName->   Admin
+2024-08-23 00:45:51,836 INFO com.csmtech.controller.MyController [http-nio-8088-exec-9]  here inside admindashboard
+2024-08-23 00:45:52,725 INFO com.csmtech.controller.MyController [http-nio-8088-exec-1]  here inside admindashboard
+2024-08-23 00:46:29,379 INFO com.csmtech.controller.MyController [http-nio-8088-exec-5] getting......
+2024-08-23 00:46:29,786 INFO com.csmtech.controller.MyController [http-nio-8088-exec-7] getting......
+2024-08-23 00:46:37,133 INFO com.csmtech.controller.MyController [http-nio-8088-exec-9] ------------Login ====>>Proctor
+2024-08-23 00:46:37,134 INFO com.csmtech.controller.MyController [http-nio-8088-exec-9] Proctor@123
+2024-08-23 00:46:37,151 INFO com.csmtech.controller.MyController [http-nio-8088-exec-10] getting......
+2024-08-23 00:46:37,298 INFO com.csmtech.controller.MyController [http-nio-8088-exec-3] getting......
+2024-08-23 00:47:26,549 INFO com.csmtech.controller.MyController [http-nio-8088-exec-6] ------------Login ====>>Proctor
+2024-08-23 00:47:26,550 INFO com.csmtech.controller.MyController [http-nio-8088-exec-6] proctor@123
+2024-08-23 00:47:26,565 INFO com.csmtech.controller.MyController [http-nio-8088-exec-6] ---------Role Id is -> 2
+2024-08-23 00:47:26,577 INFO com.csmtech.controller.ProctorController [http-nio-8088-exec-7] Returning list of exams....
+2024-08-23 00:47:27,462 INFO com.csmtech.controller.ProctorController [http-nio-8088-exec-10] Returning list of exams....
+2024-08-23 01:04:09,981 WARN org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(24)-127.0.0.1] Cannot serialize session attribute [sessionData] for session [EA00D7C5E83F0E7DCCC134BFFFD889BC]
+java.io.NotSerializableException: com.csmtech.model.Role
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1187)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:350)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1761)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1067)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:317)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:268)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5459)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1398)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:983)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1409)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1398)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:983)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:495)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:982)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stopTomcat(TomcatWebServer.java:273)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:331)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:52)
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:117)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:234)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:373)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:206)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1067)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
